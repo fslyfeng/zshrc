@@ -68,7 +68,7 @@ function is_macos1015() {
 # 安装mac平台必备软件
 function install_prepare_software_on_mac() {
     xcode-select --install
-    brew install zsh 
+    brew install zsh
     # macos1015=$(is_macos1015)
     # if [ $macos1015 == 1 ]; then
     #     open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.15.pkg
